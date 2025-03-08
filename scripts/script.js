@@ -1,10 +1,10 @@
-import {closeForm} from './closeForm.js'
+import { closeForm } from './closeForm.js'
 
 import { openForm } from './openForm.js'
  
 import { transitionForm } from './transitionForm.js'
 
-import {screenResponse} from './response.js'
+import { screenResponse } from './response.js'
 
 import { openMenu } from './openMenu.js'
 
@@ -23,5 +23,4 @@ function pageLoad(){
 
     
 }
-
 

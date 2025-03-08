@@ -11,7 +11,14 @@ const buttons = document.querySelectorAll('.transition-button')
 
 export function transitionLogin(){
     
-    container.style.height = '480px'
+    if (window.innerWidth <= 375 ) {
+        
+        container.style.height = '460px'
+    }else{
+
+        container.style.height = '480px'
+
+    }
 
     login.style.right = '0px'
     login.style.opacity = '1'
@@ -22,7 +29,15 @@ export function transitionLogin(){
 
 export function transitionRegister(){
 
-    container.style.height = '560px'
+    if (window.innerWidth <= 425) {
+
+        container.style.height = '540px'
+    }else if(window.innerWidth <= 375){
+
+        container.style.height = '520px'
+
+    }
+
 
     login.style.right = '500px'
     login.style.opacity = '0'
