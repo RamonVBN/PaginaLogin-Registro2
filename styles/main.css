@@ -1,0 +1,288 @@
+main{
+    width: 100%;
+    height: calc(100% - 148px);
+    top: 148px;
+
+    display: flex;
+    justify-content: center;
+
+    img{
+        height: 40px;
+        width: 40px;
+    }
+
+    
+}
+
+section{
+    width: 500px;
+    /* padding-top: 80px; */
+    display: flex;
+    align-items: center;
+
+    /* overflow: hidden; */
+    
+}
+
+.main-container{
+    flex: 1 1 500px;
+
+    height: 480px;
+    overflow: hidden;
+
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0  30px rgba(0, 0, 0, 0.5);
+
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+
+    transition: 0.1s ease-in-out;
+    scale: 0;
+
+    #close-icon{
+        position: relative;
+        top:0;
+
+        cursor: pointer;
+
+        background-color: #162938;
+        height: 40px;
+        width: 50px;
+
+        border-radius: 2px 20px 2px 20px;
+    }
+
+    #close-icon:hover{
+        
+    background-color: #213c52;
+    transition: 0.25s ease-in-out;
+
+    }
+
+    #checkbox-div{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        span{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            label{
+                cursor: pointer;
+            }
+        }
+        
+    }
+    
+    
+    a{
+        text-decoration: none;
+        color: #162938;
+        font-weight: 550;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+   
+}
+
+button.submit-button{
+    border: none;
+    color: #fff;
+    background-color: #162938;
+
+    height: 60px;
+
+    border-radius: 10px;
+
+    font-size: 20px;
+    font-weight: 550;
+    font-family: 'Poppins', sans-serif;
+
+    cursor: pointer;
+}
+
+button.submit-button:hover{
+    background-color: #213c52;
+    transition: 0.25s ;
+}
+
+div.transition-button-div{
+    font-weight: 550;
+    /* color: #162938; */
+    align-self: center;
+
+    a{
+        /* background-color: black; */
+        padding: 8px;
+        border: none;
+        color: #162938;
+        font-size: 18px;
+        font-weight: 600;
+
+        cursor: pointer;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+.main-header{
+    text-align: center;
+    
+
+    h1{
+        font-size: 36px;
+        color: #162938;
+    }
+
+}
+
+
+
+
+
+form{
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+    gap: 20px;
+
+    padding: 20px 40px;
+   
+}
+
+.input-box{
+
+    position: relative;
+
+    /* background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(8, 8, 32);  */
+
+    height: 60px;
+
+    width: 100%;
+    border-bottom: 2px solid rgb(1, 1, 20);
+
+    input{
+        background-color: transparent;
+        border: none;
+        /* height: 100%; */
+        
+        outline: none;
+
+        font-size: 18px;
+        font-weight: 500;
+        color: #162938;
+
+        position: relative;
+        top: 50%;
+
+        width: calc(100% - 40px);
+    }
+
+    /* input#iemail{
+        top:-18px;
+    } */
+
+    label{
+        position: absolute;
+        left: -173px;
+        color: #162938;
+        font-weight: 550;
+        
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+        transition: 0.5s ease-in-out;
+    }
+ 
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -1px;
+    
+}
+
+.main-login{
+
+    position: relative;
+    transition: 0.15s ease-in-out;
+    right: 0px;
+    top: 0px;
+
+    
+
+}
+
+
+.iconEmail{
+    position: relative;
+    top: -7px;
+    /* left: 375px; */
+}
+
+.iconPassword{
+    position: relative;
+    top: -12px;
+    /* left: 375px; */
+}
+
+.main-register{
+    height: 500px;
+    position: relative;
+    left:500px;
+    top: -400px;
+
+    transition: 0.15s ease-in-out;
+
+    /* img#iconEmail-2{
+        position: relative;
+        top: -7px;
+        left: 375px;
+
+        top: 143px; 
+        top: 223px;
+        right: -422px; 
+    }
+
+    img#iconPassword-2{
+        position: relative;
+        top: 220px; 
+        top: 300px;
+        right: -380px;
+    } */
+    
+    #iconUser{
+        position: relative;
+        top: -7px;
+
+        /* left: 375px; */
+        /* top: 303px;
+        top: 143px;
+        right: -335px; */
+
+    }
+}
+
+span#terms-conditions{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    label{
+        cursor: pointer;
+    }
+}
+
+
+

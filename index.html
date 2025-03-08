@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cervo e trige.</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <header>
+        <h1>Logome.</h1>
+
+        <img class="button-menu-mobile" src="imagens/icons/menu_24dp_FFF_FILL0_wght400_GRAD0_opsz24.svg" alt="Ícone de menu">
+        
+        <nav class="navigation">
+            <ul>
+                <li class="selected">Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li id="last">Contacts</li>
+            </ul>
+
+            
+
+            <button class="header-button login-not-selected" >Login</button>
+    </header>
+
+
+    <main>
+        <section>
+
+            <div class="main-container .tansition">
+
+                <span><img class="close-icon-desktop" id="close-icon" src="imagens/icons/close_24dp_FFF_FILL0_wght400_GRAD0_opsz24.svg" alt="Ícone de fechar."></span>
+
+                
+
+                <div class="main-login .tansition">
+                    <div class="main-header">
+
+                        <span></span>
+
+                        <span></span>
+                        
+                        <h1>Login</h1>
+                    </div>
+                    <div>
+                        <form action="">
+
+                            <div class="input-box">
+                                
+                                <input class="inputResponse" id="iemail" type="text" autocomplete="email" required>
+                                <label for="iemail">Email</label>
+                                <img class="iconEmail" src="imagens/icons/mail_24dp_162938_FILL1_wght400_GRAD0_opsz24.svg" alt="Ícone de email">
+                                
+                            </div>
+
+                            <div  class="input-box">
+                                <input class="inputResponse" id="isenha" type="password" autocomplete="current-password" required>
+                                <label for="isenha">Password</label>
+                                <img class="iconPassword" src="imagens/icons/lock_24dp_162938_FILL1_wght400_GRAD0_opsz24.svg" alt="Ícone de cadeado.">
+                                
+                                
+                            </div>
+
+                            <div id="checkbox-div">
+                                <span>
+                                    <input id="checkbox" type="checkbox">
+                                    <label for="checkbox">Remember me</label>
+                                </span>
+                                <a href="#">Forgot Password?</a>
+                            </div>
+                            <button class="submit-button" type="submit">Login</button>
+
+                            <div class="transition-button-div">Don't have an account? <a href="#" class="transition-button">Register</a></div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="main-register .tansition">
+
+                    <span></span>
+    
+                    <span></span>
+    
+                    <span></span>
+    
+                    <div class="main-header">
+                        <h1>Registration</h1>
+                    </div>
+                    <div id="div-form">
+                        <form action="">
+    
+                            <div class="input-box">
+
+                                <input class="inputResponse" id="iusername-register" type="text" autocomplete="username" autocom required>
+                                <label for="iusername-register">Username</label>
+
+                                <img id="iconUser" src="imagens/icons/person_24dp_162938_FILL1_wght400_GRAD0_opsz24.svg" alt="Ícone de pessoa.">
+
+                            </div>
+    
+                            <div class="input-box">
+
+                                <input class="inputResponse" id="iemail-register" type="text" required>
+                                <label for="iemail-register">Email</label>
+
+                                <img class="iconEmail" src="imagens/icons/mail_24dp_162938_FILL1_wght400_GRAD0_opsz24.svg" alt="Ícone de email.">
+
+                            </div>
+    
+                            <div class="input-box">
+
+                                <input class="inputResponse" id="ipassword-register" type="password" autocomplete="new-password" required>
+                                <label for="ipassword-register">Password</label>
+
+                                <img class="iconPassword" src="imagens/icons/lock_24dp_162938_FILL1_wght400_GRAD0_opsz24.svg" alt="Ícone de cadeado.">
+
+                            </div>
+    
+                            <span id="terms-conditions">
+                                <input id="checkbox-2" type="checkbox">
+                                <label for="checkbox-2">I agree to the terms & conditions</label>
+                            </span>
+    
+                            <button class="submit-button" type="submit">Register</button>
+    
+                            <div class="transition-button-div">Already have an account? <a href="#" class="transition-button">Login</a></div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+
+            
+
+        </section>
+
+        
+    </main>
+
+
+
+    <audio src=""></audio>
+    <script type="module" src="scripts/script.js"></script>
+</body>
+</html>

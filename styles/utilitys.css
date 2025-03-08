@@ -1,0 +1,26 @@
+.close-icon-desktop{
+    left: 450px;
+}
+
+.close-icon-tablet{
+    left: 430px;
+}
+
+.icon-email-tablet{
+    left: 195px;
+}
+
+.icon-password-tablet{
+    left: 153px;
+
+}
+
+.login-selected{
+    background-color: #fff;
+    color: black;
+}
+
+.login-not-selected{
+    background-color: #162938;
+
+}
