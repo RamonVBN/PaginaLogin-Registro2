@@ -128,9 +128,8 @@
 
 @media  screen and (max-width: 400px){
 
-    section .main-container{
-        height:80%;
-
+    .main-register{
+        top: -384px;
     }
 
     .main-header h1{

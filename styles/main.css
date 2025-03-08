@@ -27,7 +27,7 @@ section{
 .main-container{
     flex: 1 1 500px;
 
-    height: 480px;
+    /* height: 480px;  */
     overflow: hidden;
 
     background-color: transparent;
@@ -238,7 +238,7 @@ form{
 }
 
 .main-register{
-    height: 500px;
+    /* height: 500px; */
     position: relative;
     left:500px;
     top: -400px;

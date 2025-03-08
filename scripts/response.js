@@ -14,6 +14,8 @@ const inputBox  = document.querySelector('.input-box')
 
 const ul = document.querySelector('ul')
 
+const login = document.querySelector(".main-login");
+
 
 
 // console.log(closeButton)
@@ -39,6 +41,19 @@ export function widthWatcher(viewPortWidth){
     })
 
     iconUser.style.left = `${inputBox.clientWidth - 40}px`
+
+    
+
+    if(login.style.right === ""){
+
+        if (window.innerWidth <= 375) {
+            container.style.height = "450px";
+          } else {
+            container.style.height = "480px";
+          }
+
+    } 
+    
 
     // input.clientWidth = `${inputBox.clientWidth - 45}px`
 

@@ -10,7 +10,7 @@ const buttons = document.querySelectorAll(".transition-button");
 
 export function transitionLogin() {
   if (window.innerWidth <= 375) {
-    container.style.height = "460px";
+    container.style.height = "450px";
   } else {
     container.style.height = "480px";
   }
@@ -23,11 +23,16 @@ export function transitionLogin() {
 }
 
 export function transitionRegister() {
-  if (window.innerWidth <= 425) {
+  if (window.innerWidth === 425) {
     container.style.height = "540px";
-  } else if (window.innerWidth <= 375) {
-    container.style.height = "520px";
-  } else {
+
+  } else if (window.innerWidth === 375) {
+    container.style.height = "525px";
+  } else if(window.innerWidth < 375) {
+
+    container.style.height = "540px";
+    }else{
+    
     container.style.height = "560px";
   }
 
