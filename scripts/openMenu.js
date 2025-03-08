@@ -3,8 +3,6 @@ const menuButton = document.querySelector('.button-menu-mobile')
 
 const ul = document.querySelector('ul')
 
-console.log(menuButton)
-console.log(ul.style)
 
 export function openMenu(){
 
@@ -24,7 +22,6 @@ export function openMenu(){
     document.addEventListener('click', (event) =>{
 
         if (window.innerWidth < 860) {
-            console.log('visivel')
             
             if (!event.target.classList.contains('button-menu-mobile')) {
                 

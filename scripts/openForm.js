@@ -5,7 +5,6 @@ const container = document.querySelector('.main-container')
 const headerButton = document.querySelector('.header-button')
 
 
-console.log(headerButton)
 
 export function openForm(){
 

@@ -16,8 +16,9 @@ export function closeForm(){
         headerButton.classList.add('login-not-selected')
 
         setTimeout(() =>{
+            
             transitionLogin()
-            console.log('opa')
+        
         }, 300)
 
         // login.style.right  = '0px'

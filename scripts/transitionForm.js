@@ -8,7 +8,6 @@ const register = document.querySelector('.main-register')
 
 const buttons = document.querySelectorAll('.transition-button')
 
-console.log(register)
 
 export function transitionLogin(){
     

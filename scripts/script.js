@@ -6,7 +6,7 @@ import { transitionForm } from './transitionForm.js'
 
 import {screenResponse} from './response.js'
 
-import { openMenu } from './openmenu.js'
+import { openMenu } from './openMenu.js'
 
 
 addEventListener('DOMContentLoaded', pageLoad())
