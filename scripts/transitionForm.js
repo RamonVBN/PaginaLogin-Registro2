@@ -17,7 +17,6 @@ export function transitionLogin(){
     }else{
 
         container.style.height = '480px'
-
     }
 
     login.style.right = '0px'
@@ -36,6 +35,8 @@ export function transitionRegister(){
 
         container.style.height = '520px'
 
+    }else{
+        container.style.height = '560px'
     }
 
 
