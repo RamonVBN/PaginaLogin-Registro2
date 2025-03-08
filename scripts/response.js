@@ -44,12 +44,13 @@ export function widthWatcher(viewPortWidth){
 
     
 
-    if(login.style.right === ""){
-
+    if(login.style.right !== "500px"){
+        console.log('opa')
         if (window.innerWidth <= 375) {
             container.style.height = "450px";
           } else {
             container.style.height = "480px";
+            
           }
 
     } 

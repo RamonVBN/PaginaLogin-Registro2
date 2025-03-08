@@ -28,7 +28,7 @@ export function transitionRegister() {
 
   } else if (window.innerWidth === 375) {
     container.style.height = "525px";
-  } else if(window.innerWidth < 375) {
+  } else if(window.innerWidth === 320) {
 
     container.style.height = "540px";
     }else{
